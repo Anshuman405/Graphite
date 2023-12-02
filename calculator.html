@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Graphite | Calculator</title>
+  <title>Student Web Browser</title>
         <link rel="icon" href="images/logo2.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,11 +11,12 @@
 
     /* CSS styles */
     body {
-      font-family: Arial, sans-serif;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin: 0;
       padding: 0;
-      background-image: url("images/background.jpg");
-      color: #333;
+      background-color: #b51212;
+
+      
     }
 
     .container {
@@ -39,7 +40,7 @@
 
     .tab {
       padding: 10px;
-      background-color: #50C878;
+      background-color: #2200ff;
       border-bottom: 1px solid #ccc;
       cursor: pointer;
       color:black;
@@ -90,8 +91,8 @@
       flex: 1;
       border: none;
       padding: 10px;
-      background-color: #f1f1f1;
-      color: #333;
+      background-color: #bf3f3f;
+      color: #4f4343;
       font-size: 18px;
     }
 
@@ -338,8 +339,10 @@
 }
 
 .mathButtons {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	margin: 2px 2px 6px 2px;
-	color: #FFF;
+  background: linear-gradient(to right, maroon,black);
+  color: white;
 	text-shadow: -1px -1px 0px #44006F;
 	background-color: #434343;
 	border-top: 2px solid #C1C1C1;
@@ -350,9 +353,9 @@
 }
 
 .digits {
-	color: #181818;
+	color: maroon;
 	text-shadow: 1px 1px 0px #FFF;
-	background-color: #EBEBEB;
+  background:background: linear-gradient(to right, #780b0b, #gray);;
 	border-top: 2px solid #FFF;
 	border-right: 2px solid #FFF;
 	border-bottom: 2px solid #C1C1C1;
@@ -364,8 +367,9 @@
 .digits:hover,
 .mathButtons:hover,
 #clearButton:hover {
-	background-color: #FFBA75;
-	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+	background-color: #780b0b;
+  font-family: 'Courier New', Courier, monospace;
+	box-shadow: 0px 0px 2px red, inset 0px -20px 1px #780b0b;
 	border-top: 2px solid #FFF;
 	border-right: 2px solid #FFF;
 	border-bottom: 2px solid #AE5700;
@@ -373,9 +377,9 @@
 }
 
 #clearButton {
-	color: #FFF;
-	text-shadow: -1px -1px 0px #44006F;
-	background-color: #D20000;
+	color:black ;
+	text-shadow: -1px -1px 0px gray;
+	background-color:  linear-gradient(to right, #780b0b, #8a2b2b);
 	border-top: 2px solid #FF8484;
 	border-right: 2px solid #FF8484;
 	border-bottom: 2px solid #800000;
@@ -394,7 +398,7 @@
   display: none;
   padding: 30px;
   text-align: center;
-  
+  background-color:  linear-gradient(to right, #780b0b, #8a2b2b);
 }
 
 /* Next & previous buttons */
@@ -410,6 +414,7 @@
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
+   background-color:  linear-gradient(to right, #780b0b, #8a2b2b);
 }
 
 /* Position the "next button" to the right */
@@ -471,7 +476,7 @@
         <hr>
         <a class="home" href="index.html"><img src="images/home-button.png" alt="Home" width="40" height="40"></a>
   <a class="calc" href="calculator.html"><img src="images/calc.png" alt="Calculator" width="40" height="40"></a>
-  <a class="task" href="ai_helper.html"><img src="826118-removebg-preview.png" alt="tasks" width="40" height="40"></a>
+  <a class="task" href="task.html"><img src="images/cmark.png" alt="tasks" width="40" height="40"></a>
       </div>
       <hr>
       <br>
